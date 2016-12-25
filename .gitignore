@@ -32,3 +32,6 @@ glide.lock
 .project
 .buildpath
 .DS_Store
+
+# Ignore Config file, example file to modified, renamed and used, see stocksymbolloader.example. toml
+stocksymbolloader.toml

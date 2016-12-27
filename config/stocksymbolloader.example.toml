@@ -1,0 +1,9 @@
+# Stock Symbol Loader Configuration File
+# Rename this file to stocksymbolloader.toml (drop the .example)
+
+[database]
+username="mysql-username"
+password="mysql-password"
+dbname="mysql-database-name"
+host="mysql-host-location"
+port="mysql-host-port"

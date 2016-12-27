@@ -1,0 +1,4 @@
+Symbol	Description
+AAB.TO	Aberdeen International I
+AAR.UN.TO	Pure Industrial Real Est
+FAKE.TO	Sample only see EODData.com

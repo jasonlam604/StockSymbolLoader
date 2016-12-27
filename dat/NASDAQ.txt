@@ -1,0 +1,5 @@
+Symbol	Description
+AAAP	Advanced Accele. Ads
+AAL	American Airlines Gp
+AAME	Atlantic Amer Cp
+FAKE	Sample only see EODData.com

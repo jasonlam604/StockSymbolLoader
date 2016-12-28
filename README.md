@@ -25,12 +25,12 @@ Note due to Golang *vendor* directory requirements glide.yaml and glide must be 
 
 #### Create MySQL DB Table
 
-It's assumed you know what to do here, this really just a reminder you need to apply the symbols DDL file under /etc/ the file named 
-symbols.sql
+It's assumed you know what to do here, this is really just a reminder you need to apply the symbols DDL file under /etc/ the file named 
+symbols.sql to your database.
 
 #### Update Config file
 
-At this point in time the config file contains configuration for database access
+At this point in time the config file contains configuration for database access, of your you need to apply your settings here.
 
 ```bash
 [database]
@@ -45,7 +45,7 @@ Be sure to rename the file *stocksymbolloader.example.toml* to *stocksymbolloade
 
 #### Replace Data files
 
-For testing purpose only you can use the existing data files under the *dat* folder othewise you will need to replace the files
+For testing purposes only you can use the existing data files under the *dat* folder othewise you will need to replace the files
 with actual files from EODData.com
 
 #### Compile and Run the application

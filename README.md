@@ -3,9 +3,9 @@ EOD Data Symbol List Loader
 
 ## Overview
 
-Small Program written in Go that loads a given symbol list file made up of CSV data, provided by EODData.com.  You can get symbol list are free with an account sign-up.
+Small program written in Golang that loads symbol list files made up of CSV data.  You can get symbol lists for free with an account sign-up at EODData.com
 
-Current state the program has only been tested with NASDAQ, TSX and TSXV.  Shouldn't be problem to run the other exchanges as well, code may need to be modified to handle other symbols with suffix excchange indicators.  Open a pull request or an issue, more then happy to update the code.
+Current state the program has only been tested with NASDAQ, TSX and TSXV.  Shouldn't be problem to run the other exchanges as well, code may need to be modified to handle other symbols with suffix exchange indicators.  Open a pull request or an issue, more then happy to update the code.
 
 ## Prerequisite 
 

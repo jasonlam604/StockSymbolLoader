@@ -56,3 +56,7 @@ go build github.com/jasonlam604/StockSymbolLoader/
 ```bash
 ./StockSymbolLoader
 ```
+
+## Debugging
+
+Log file is found under *log* directory, this is where you will find messages like duplicate entry...

@@ -1,14 +1,10 @@
+// Small simple App to load Symbols into a MySQL table, dependency file CSV format
+// defined by www.eoddata.com.  That said this program can easily be modified 
+// to support a different format. Authored by Jason Lam, jasonlam604@gmail.com.
+// Code repository hosted on Github at https://github.com/jasonlam604/StockSymbolLoader
+// Code is released under MIT License.
 package main
 
-/**
- * StockSymbolLoader - Small simple App to load Symbols into a MySQL table, dependency file CSV format
- *                     defined by www.eoddata.com.  That said this program can easily be modified 
- *                     to support a different format.
- *
- * Author - Jason Lam <jasonlam604@gmail.com>
- * GitHub Repo - https://github.com/jasonlam604/Stringizer
- * License - https://github.com/jasonlam604/StockSymbolLoader/blob/master/LICENSE.MD (MIT License)
- */
 import (
 	"bufio"
 	"database/sql"

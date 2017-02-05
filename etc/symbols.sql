@@ -3,7 +3,7 @@
 --
 CREATE TABLE `symbols` (
   `id` int(10) UNSIGNED NOT NULL,
-  `exchange` enum('UNKNOWN','NASDAQ','TSX','TSXV') NOT NULL DEFAULT 'UNKNOWN',
+  `exchange` enum('UNKNOWN','NASDAQ','NYSE','TSX','TSXV') NOT NULL DEFAULT 'UNKNOWN',
   `code` varchar(10) NOT NULL,
   `status` enum('ACTIVE','INACTIVE','PENDING_REVIEW') NOT NULL,
   `company_name` varchar(256) NOT NULL,
